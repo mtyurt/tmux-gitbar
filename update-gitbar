@@ -13,6 +13,6 @@ main () {
   load_config
   update_gitbar
 }
-
+cd $(tmux display-message -p "#{pane_current_path}")
 main
 
